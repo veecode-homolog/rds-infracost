@@ -3,7 +3,7 @@ kind: Database
 metadata:
   name: "rds-infracost"
   annotations:
-    github.com/project-slug: veecode-homolog/teste-rds-secret
+    github.com/project-slug: veecode-homolog/rds-infracost
     backstage.io/techdocs-ref: dir:.
     github.com/workflows: terraform-deploy.yml,terraform-destroy.yml
     infracost/project: rds-infracost
