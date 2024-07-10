@@ -5,7 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: veecode-homolog/rds-infracost
     backstage.io/techdocs-ref: dir:.
-    github.com/workflows: terraform-deploy.yml,terraform-destroy.yml
+    github.com/workflows: terraform-deploy.yml,terraform-destroy.yml,infracost.yml
     infracost/project: rds-infracost
   environment:
     endpoint: rds-infracost.cpzxdcn9a81i.us-east-1.rds.amazonaws.com
