@@ -1,4 +1,4 @@
-identifier: "testerdssecret"
+identifier: "rds-infracost"
 allocated_storage: 10
 engine: "postgres"
 engine_version: "15"

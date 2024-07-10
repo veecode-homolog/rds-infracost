@@ -1,14 +1,8 @@
-apiVersion: veecode.backstage.io/v1alpha1
-kind: Database
+apiVersion: backstage.io/v1alpha1
+kind: Location
 metadata:
-  name: "testerdssecret"
-  annotations:
-    github.com/project-slug: veecode-homolog/teste-rds-secret
-    backstage.io/techdocs-ref: dir:.
-    github.com/workflows: terraform-deploy.yml,terraform-destroy.yml
-  environment:
-    endpoint: testerdssecret.cpzxdcn9a81i.us-east-1.rds.amazonaws.com
+  name: rds-infracost-location
+  description: Location to import all rds-infracost catalog components
 spec:
-  type: rds
-  lifecycle: experimental
-  owner: "group:default/admin"
+  targets:
+    - ./.platform/*.yaml
